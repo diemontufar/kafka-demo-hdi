@@ -32,17 +32,17 @@ dotnet run produce siniestros ./csharp.config
 
 ```
 cd ./AjustadorAutoConsumer
-dotnet run ajustador-auto siniestros ~/.confluent/csharp.config
+dotnet run ajustador-auto siniestros ./csharp.config
 ```
 
 ```
 cd ./AjustadorDanoConsumer
-dotnet run ajustador-dano siniestros ~/.confluent/csharp.config
+dotnet run ajustador-dano siniestros ./csharp.config
 ```
 
 ```
 cd ./AnalistaDanoConsumer
-dotnet run analista-dano siniestros ~/.confluent/csharp.config
+dotnet run analista-dano siniestros ./csharp.config
 ```
 
 ### 5. Run Power BI consumer
